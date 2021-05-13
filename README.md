@@ -1,4 +1,17 @@
-# Cadastro de carro
+# Sobre o projeto
+Aplciativo para aluguel de veículos
+
+## Instalação
+
+* Subir os containers
+```
+docker-compose up -d
+```
+### Para testar o projeto basta consumir a documentação do Swagger
+http://localhost:3333/api-docs/
+
+# Requisitos do sistema
+## Cadastro de carro
 
 **RF**
 Deve ser possível cadastrar um novo carro.
@@ -21,7 +34,7 @@ Deve ser possível listar todos os carros disponíveis pelo nome do carro.
 O usuário não precisa estar logado no sistema.
 
 
-# Cadastro de especificação no carro
+## Cadastro de especificação no carro
 
 **RF**
 Deve ser possível cadastrar uma especificação para um carro.
@@ -32,7 +45,7 @@ Não deve ser possível cadastrar uma especificação já existente para o mesmo
 O usuário responsável pelo cadastro deve ser um usuário administrador.
 
 
-# Cadastro de imagens do carro
+## Cadastro de imagens do carro
 
 **RF**
 Deve ser possível cadastrar a imagem do carro.
@@ -45,7 +58,7 @@ O Usuário deve poder cadastrar mais de uma imagem para o mesmo carro.
 O usuário responsável pelo cadastro deve ser um usuário administrador.
 
 
-# Aluguel de carro
+## Aluguel de carro
 
 **RF**
 Deve ser possível cadastrar um aluguel
