@@ -1,14 +1,16 @@
 # Sobre o projeto
-Aplciativo para aluguel de veículos
+Aplicativo para aluguel de veículos
 
 ## Instalação
 
-* Subir os containers
+Subir os containers
 ```
 docker-compose up -d
 ```
-### Para testar o projeto basta consumir a documentação do Swagger
+### Consumir API com Swagger
+```
 http://localhost:3333/api-docs/
+```
 
 # Requisitos do sistema
 ## Cadastro de carro
